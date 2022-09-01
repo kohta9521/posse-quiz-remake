@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/* head部分 */
+.header {
+    width: 100%;
+    height: 9vh;
+    background-color: aqua;
+    display: flex;
+}
+.header__logo {
+    width: 20%;
+    height: 9vh;
+    background-color: aquamarine;
+}
+.header__list {
+    width: 30%;
+    height: 9vh;
+    background-color: azure;
+}
+/* head部分　終了*/
+
+/* hero部分 */
+/* hero部分終了 */
