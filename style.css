@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/* head部分 */
+.header {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    width: 20%;
+    height: 9vh;
+}
+.header__logo img {
+    display: block;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+.header__list {
+    width: 45%;
+    height: 9vh;
+}
+.header__list ul {
+    display: flex;
+    margin-left: 40%;
+}
+.header__list ul li {
+    display: block;
+    height: 100%;
+    margin-top: 10px;
+    margin-right: 10%;
+}
+/* head部分　終了*/
+
+/* hero部分 */
+.hero {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+/* hero部分終了 */
