@@ -21,16 +21,33 @@ img {
     height: 9vh;
     background-color: aqua;
     display: flex;
+    justify-content: space-between;
 }
 .header__logo {
     width: 20%;
     height: 9vh;
     background-color: aquamarine;
 }
+.header__logo img {
+    display: block;
+    margin-top: 7%;
+    margin-left: 7%;
+}
 .header__list {
-    width: 30%;
+    width: 45%;
     height: 9vh;
     background-color: azure;
+}
+.header__list ul {
+    display: flex;
+    margin-left: 40%;
+}
+.header__list ul li {
+    display: block;
+    height: 100%;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-right: 10%;
 }
 /* head部分　終了*/
 
