@@ -19,14 +19,12 @@ img {
 .header {
     width: 100%;
     height: 9vh;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
 }
 .header__logo {
     width: 20%;
     height: 9vh;
-    background-color: aquamarine;
 }
 .header__logo img {
     display: block;
@@ -36,7 +34,6 @@ img {
 .header__list {
     width: 45%;
     height: 9vh;
-    background-color: azure;
 }
 .header__list ul {
     display: flex;
@@ -45,11 +42,21 @@ img {
 .header__list ul li {
     display: block;
     height: 100%;
-    background-color: aqua;
     margin-top: 10px;
     margin-right: 10%;
 }
 /* head部分　終了*/
 
 /* hero部分 */
+.hero {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
 /* hero部分終了 */
