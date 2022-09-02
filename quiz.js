@@ -16,27 +16,11 @@ quiz[1] = [
     "X-TECH",
     "3"
 ]
-
-
-
-
-
-function quizA () {
-    var quizProblem = document.getElementById("quiz__problem--content");
-    quizProblem.innerHTML = quiz[0][0];
-
-    var quizImage = document.querySelector("#quiz__image--content");
-    quizImage.src = quiz[0][1];
-
-    var quizChoice1 = document.querySelector("#quiz__choice--1");
-    quizChoice1.innerHTML =quiz[0][2];
-
-    var quizChoice2 = document.querySelector("#quiz__choice--2");
-    quizChoice2.innerHTML =quiz[0][3];
-
-    var quizChoice3 = document.querySelector("#quiz__choice--3");
-    quizChoice3.innerHTML =quiz[0][4];
-}
-
-quizA();
-
+quiz[2] = [
+    "IoTとは何の略でしょう？",
+    "assets/img/quiz/img-quiz03.png",
+    "Internet of Things",
+    "Integrate into Technology",
+    "Information  on Tool",
+    "1"
+]
