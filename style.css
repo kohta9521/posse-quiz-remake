@@ -75,5 +75,38 @@ img {
 /* hero部分終了 */
 
 /* quiz部分 */
-
+.quiz__1 {
+    width: 70%;
+    margin: 100px auto;
+}
+.quiz__number {
+    width: 90px;
+    height: 60px;
+    background-color: #0071BC;
+    border-radius: 8px;
+}
+.quiz__number--content {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+.quiz__prpblem {
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+}
+.quiz__prpblem p {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 160%;
+    text-align: justify;
+}
+#quiz__image {
+    display: block;
+}
+#quiz__image--content {
+    display: block;
+    margin: 30px auto;
+}
 /* quiz部分終了 */
