@@ -76,7 +76,7 @@ img {
 
 /* quiz部分 */
 .quiz__1 {
-    width: 70%;
+    width: 60%;
     margin: 100px auto;
 }
 .quiz__number {
@@ -107,6 +107,18 @@ img {
 }
 #quiz__image--content {
     display: block;
-    margin: 30px auto;
+    margin: 40px auto;
 }
+.quiz__answer {
+    width: 50px;
+    height: 60px;
+    background-color: #E34E70;
+    border-radius: 8px;
+}
+.quiz__answer--content {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
 /* quiz部分終了 */
