@@ -17,28 +17,44 @@ quiz[1] = [
     "3"
 ]
 
+quiz[3] = {
+    sentense: "日本のIT人材が2030年には最大どれくらい不足すると言われているでしょうか？",
+    image: "assets/img/quiz/img-quiz01.png",
+    ans1: "約28万人",
+    ans0: "約79万人",
+    ans0: "約183万人"
+}
+
+console.log(quiz[3].sentense);
 
 
 
 
 function quizA (num) {
     var quizProblem = document.getElementById("quiz__problem--content");
-    quizProblem.innerHTML = quiz[num][0];
+    quizProblem.innerHTML = quiz[num].sentense;
 
     var quizImage = document.querySelector("#quiz__image--content");
-    quizImage.src = quiz[num][1];
+    quizImage.src = quiz[num].image;
 
     var quizChoice1 = document.querySelector("#quiz__choice--1");
-    quizChoice1.innerHTML =quiz[num][2];
+    quizChoice1.innerHTML =quiz[num].ans1;
 
     var quizChoice2 = document.querySelector("#quiz__choice--2");
-    quizChoice2.innerHTML =quiz[num][3];
+    quizChoice2.innerHTML =quiz[num].ans0;
 
     var quizChoice3 = document.querySelector("#quiz__choice--3");
-    quizChoice3.innerHTML =quiz[num][4];
+    quizChoice3.innerHTML =quiz[num].ans0;
 }
 
-quizA(0);
+function quizC(num) {
+    var quizPro = document.querySelector("#quiz__problem--content");
+    quizPro.innerHTML = quiz[num].sentense;
+}
+
+quizC(3);
+
+quizA(3);
 
 var quizA = document.querySelector("#quiz__answerbox--content1");
 var quizF = document.querySelector("#quiz__answerbox--content2");
@@ -47,3 +63,18 @@ function go(num) {
     
 }
 
+var ans = document.querySelector("#quiz__choice--1");
+ans.addEventListener('click', () => {
+    document.querySelector("#quiz__answerbox--content1").style.display="block";
+});
+
+
+var ans = document.querySelector("#quiz__choice--2");
+ans.addEventListener('click', () => {
+    document.querySelector("#quiz__answerbox--content2").style.display="block";
+});
+
+var ans = document.querySelector("#quiz__choice--3");
+ans.addEventListener('click', () => {
+    document.querySelector("#quiz__answerbox--content2").style.display="block";
+});
