@@ -11,8 +11,23 @@ quiz[0] = [
 
 
 
-var quizProblem = document.getElementById("quiz__problem--content");
-quizProblem.innerHTML = quiz[0][0];
 
-var quizImage = document.querySelector("#quiz__image--content");
-quizImage.src = quiz[0][1];
+
+function quizA () {
+    var quizProblem = document.getElementById("quiz__problem--content");
+    quizProblem.innerHTML = quiz[0][0];
+
+    var quizImage = document.querySelector("#quiz__image--content");
+    quizImage.src = quiz[0][1];
+
+    var quizChoice1 = document.querySelector("#quiz__choice--1");
+    quizChoice1.innerHTML =quiz[0][2];
+
+    var quizChoice2 = document.querySelector("#quiz__choice--2");
+    quizChoice2.innerHTML =quiz[0][3];
+
+    var quizChoice3 = document.querySelector("#quiz__choice--3");
+    quizChoice3.innerHTML =quiz[0][4];
+}
+
+quizA();
