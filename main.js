@@ -63,20 +63,20 @@ function go(num) {
     
 }
 
-// var ans = document.querySelector("#quiz__choice--1");
-// ans.addEventListener('click', () => {
-//     document.querySelector("#quiz__answerbox--content1").style.display="block";
-// });
+var ans = document.querySelector("#quiz__choice--1");
+ans.addEventListener('click', () => {
+    document.querySelector("#quiz__answerbox--content1").style.display="block";
+});
 
-// var ans = document.querySelector("#quiz__choice--2");
-// ans.addEventListener('click', () => {
-//     document.querySelector("#quiz__answerbox--content2").style.display="block";
-// });
+var ans = document.querySelector("#quiz__choice--2");
+ans.addEventListener('click', () => {
+    document.querySelector("#quiz__answerbox--content2").style.display="block";
+});
 
-// var ans = document.querySelector("#quiz__choice--3");
-// ans.addEventListener('click', () => {
-//     document.querySelector("#quiz__answerbox--content2").style.display="block";
-// });
+var ans = document.querySelector("#quiz__choice--3");
+ans.addEventListener('click', () => {
+    document.querySelector("#quiz__answerbox--content2").style.display="block";
+});
 
 function ans(number)
 {
