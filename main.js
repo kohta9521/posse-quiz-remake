@@ -9,3 +9,10 @@ quiz[0] = [
     "1"
 ]
 
+
+
+var quizProblem = document.getElementById("quiz__problem--content");
+quizProblem.innerHTML = quiz[0][0];
+
+var quizImage = document.querySelector("#quiz__image--content");
+quizImage.src = quiz[0][1];
