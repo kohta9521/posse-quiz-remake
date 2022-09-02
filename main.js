@@ -21,22 +21,29 @@ quiz[1] = [
 
 
 
-function quizA () {
+function quizA (num) {
     var quizProblem = document.getElementById("quiz__problem--content");
-    quizProblem.innerHTML = quiz[0][0];
+    quizProblem.innerHTML = quiz[num][0];
 
     var quizImage = document.querySelector("#quiz__image--content");
-    quizImage.src = quiz[0][1];
+    quizImage.src = quiz[num][1];
 
     var quizChoice1 = document.querySelector("#quiz__choice--1");
-    quizChoice1.innerHTML =quiz[0][2];
+    quizChoice1.innerHTML =quiz[num][2];
 
     var quizChoice2 = document.querySelector("#quiz__choice--2");
-    quizChoice2.innerHTML =quiz[0][3];
+    quizChoice2.innerHTML =quiz[num][3];
 
     var quizChoice3 = document.querySelector("#quiz__choice--3");
-    quizChoice3.innerHTML =quiz[0][4];
+    quizChoice3.innerHTML =quiz[num][4];
 }
 
-quizA();
+quizA(0);
+
+var quizA = document.querySelector("#quiz__answerbox--content1");
+var quizF = document.querySelector("#quiz__answerbox--content2");
+
+function go(num) {
+    
+}
 
